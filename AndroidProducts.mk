@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_tulip.mk
+    $(LOCAL_DIR)/pe_nitrogen.mk
 
 COMMON_LUNCH_CHOICES := \
-   corvus_tulip-user \
-   corvus_tulip-userdebug \
-   corvus_tulip-eng
+   pe_nitrogen-user \
+   pe_nitrogen-userdebug \
+   pe_nitrogen-eng
