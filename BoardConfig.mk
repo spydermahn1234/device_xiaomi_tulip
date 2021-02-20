@@ -23,10 +23,10 @@
 #
 
 # DEVICE Tree Path
-DEVICE_PATH := device/xiaomi/tulip
+DEVICE_PATH := device/xiaomi/nitrogen
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := tulip
+TARGET_OTA_ASSERT_DEVICE := nitrogen
 
 #APEX
 TARGET_ENABLE_APEX := true
@@ -39,7 +39,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 #Density
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 380
 
 #Encryption
 TARGET_ENABLE_ENCRYPTION := true
@@ -181,8 +181,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_VERSION := 4.4
 
-TARGET_KERNEL_CONFIG := tulip_defconfig
-TARGET_KERNEL_SOURCE := kernel/xiaomi/tulip
+TARGET_KERNEL_CONFIG := nitrogeb_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/nitrogen
 
 # Enable stats logging in LMKD
 TARGET_LMKD_STATS_LOG := true
@@ -293,4 +293,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
--include vendor/xiaomi/tulip/BoardConfigVendor.mk
+-include vendor/xiaomi/nitrogen/BoardConfigVendor.mk
